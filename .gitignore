@@ -1,0 +1,10 @@
+# Exécutable
+*.exe
+
+# Fichiers de configuration de l'IDE Code::Blocks
+*.layout
+*.cbp.save
+
+# Fichiers temporaires ou de sortie
+*.o
+*.obj
