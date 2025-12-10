@@ -43,14 +43,18 @@ Compiler avec GCC :
 
 ```bash
 gcc -o huffman main.c huffman.c heap.c
-
+```
 
 ▶️ Utilisation
 🔹 Compression
+```
 ./huffman -c input.txt output.huf
+```
 
 🔹 Décompression
+```
 ./huffman -d input.huf output.txt
+```
 
 📊 Taux de compression
 
