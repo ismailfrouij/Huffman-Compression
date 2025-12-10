@@ -25,17 +25,18 @@ L’algorithme de Huffman repose sur l’idée suivante :
 
 ---
 ## 📁 Structure du projet
-
+  
 ProjetHuffman/
-│── heap.c / heap.h → Gestion de la min-heap utilisée pour l’arbre
-│── huffman.c / huffman.h → Construction de l’arbre et génération des codes
+│── heap.c → Gestion de la min-heap
+│── heap.h
+│── huffman.c → Construction de l’arbre de Huffman
+│── huffman.h
 │── main.c → Point d’entrée du programme
 │── output.txt → Fichier généré après décompression
 │── testX.txt → Fichiers texte d'entrée (tests)
-│── testX.huf → Fichiers compressés obtenus
-│── ProjetHuffman.cbp → Fichier de projet Code::Blocks
+│── testX.huf → Fichiers compressés
+│── ProjetHuffman.cbp → Projet Code::Blocks
 │── .gitignore → Exclut exécutables et fichiers temporaires
-
 
 Compiler avec GCC :
 
