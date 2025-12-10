@@ -25,7 +25,7 @@ L’algorithme de Huffman repose sur l’idée suivante :
 
 ---
 ## 📁 Structure du projet
-  
+```
 ProjetHuffman/
 │── heap.c → Gestion de la min-heap
 │── heap.h
@@ -37,6 +37,7 @@ ProjetHuffman/
 │── testX.huf → Fichiers compressés
 │── ProjetHuffman.cbp → Projet Code::Blocks
 │── .gitignore → Exclut exécutables et fichiers temporaires
+```
 
 Compiler avec GCC :
 
